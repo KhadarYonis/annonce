@@ -1,0 +1,148 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <section class="popular-deals section bg-gray">
+        <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-title">
+                                <h2>Déposer une annonce</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item bg-light">
+                        <div class="card">
+                            <div class="card-body">
+                                    <form action="#" method="POST">
+                                        <div class="block comment">
+                                            <h4>Votre annonce :</h4>
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-6">
+                                                    <div class="form-group mb-30">
+                                                        <label class="custom-control custom-radio">
+                                                            <input id="radio3" name="radio" type="radio" class="custom-control-input">
+                                                            <span class="custom-control-indicator"></span>
+                                                            <span class="custom-control-description">Particulier</span>
+                                                        </label>
+                                                        <label class="custom-control custom-radio">
+                                                            <input id="radio4" name="radio" type="radio" class="custom-control-input">
+                                                            <span class="custom-control-indicator"></span>
+                                                            <span class="custom-control-description">Professionnel</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                             </div>
+
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-6">
+                                                    <div class="form-group mb-30">
+                                                        <label for="name">Catégorie</label>
+                                                        <select class="form-control" id="exampleSelect1">
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                            <option>3</option>
+                                                            <option>4</option>
+                                                            <option>5</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-12 col-md-6">
+                                                    <div class="form-group mb-30">
+                                                        <label for="email">Titre de l'annonce</label>
+                                                        <input type="email" class="form-control" id="email">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-6">
+                                                    <div class="form-group mb-30">
+                                                        <label class="custom-control custom-radio">
+                                                            <input id="radio1" name="radio1" type="radio" class="custom-control-input">
+                                                            <span class="custom-control-indicator"></span>
+                                                            <span class="custom-control-description">Demandes</span>
+                                                        </label>
+                                                        <label class="custom-control custom-radio">
+                                                            <input id="radio2" name="radio1" type="radio" class="custom-control-input">
+                                                            <span class="custom-control-indicator"></span>
+                                                            <span class="custom-control-description">Offres</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-12 col-md-6">
+                                                    <div class="form-group mb-30">
+                                                        <label for="email">Prix de l'annonce</label>
+                                                        <input type="email" class="form-control" id="email">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="form-group">
+                                                <label for="message">Texte de l'annonce</label>
+                                                <textarea class="form-control" id="message" rows="5" cols="5"></textarea>
+                                            </div>
+
+                                        </div>
+
+
+                                        <div class="block comment">
+                                            <h4>Localisation :</h4>
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-6">
+                                                    <div class="form-group mb-30">
+                                                        <label for="name">Ville</label>
+                                                        <input type="text" class="form-control" id="name">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-12 col-md-6">
+                                                    <div class="form-group mb-30">
+                                                        <label for="email">Pays</label>
+                                                        <input type="email" class="form-control" id="email">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="block comment">
+                                            <h4>Vos informations :</h4>
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-4">
+                                                    <div class="form-group mb-30">
+                                                        <label for="name">Pseudo</label>
+                                                        <input type="text" class="form-control" id="name">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-12 col-md-4">
+                                                    <div class="form-group mb-30">
+                                                        <label for="email">Email</label>
+                                                        <input type="email" class="form-control" id="email">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-12 col-md-4">
+                                                    <div class="form-group mb-30">
+                                                        <label for="email">Téléphone</label>
+                                                        <input type="email" class="form-control" id="email">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button class="btn btn-transparent">Valider</button>
+                                        </div>
+                                    </form>
+                            </div>
+                    </div>
+
+                </div>
+        </div>
+    </section>
+
+
+{% endblock %}
+
